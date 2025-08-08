@@ -3,6 +3,7 @@ const body = document.getElementById("hero");
 const buttonEl = document.getElementById("btn");
 const buttonEl2 = document.getElementById("btn2");
 const buttonEl3 = document.getElementById("btn3");
+const buttonEl4 =document.getElementById("btn4")
 // console.log("this from script")
 // const headingEl=document.getElementById("heading")
 // headingEl.innerHTML("document object model")
@@ -20,3 +21,6 @@ buttonEl2.addEventListener("click", function () {
 buttonEl3.addEventListener("click", function () {
   body.style.color = "blue";
 });
+buttonEl4.addEventListener("click", function(){
+  body.style.backgroundColor="aqua";
+})
